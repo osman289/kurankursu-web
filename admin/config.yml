@@ -1,0 +1,54 @@
+backend:
+  name: github
+  repo: osman289/kurankursu-web
+  branch: main
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "slider"
+    label: "Ana Sayfa Kayan Fotoğraflar"
+    files:
+      - name: "slider"
+        label: "Kayan Fotoğraflar"
+        file: "data/slider.json"
+        fields:
+          - name: slides
+            label: Slaytlar
+            widget: list
+            fields:
+              - {name: image, label: Fotoğraf, widget: image}
+              - {name: title, label: Başlık, widget: string, required: false}
+              - {name: description, label: Açıklama, widget: string, required: false}
+
+  - name: "gallery"
+    label: "Medya ve Galeri"
+    files:
+      - name: "gallery"
+        label: "Galeri Fotoğrafları"
+        file: "data/gallery.json"
+        fields:
+          - name: images
+            label: Fotoğraflar
+            widget: list
+            fields:
+              - {name: image, label: Fotoğraf, widget: image}
+              - {name: category, label: Kategori, widget: select, options: ["Sınıflarımız", "Etkinlikler", "Mezuniyet Töreni", "Kursumuz"]}
+              - {name: caption, label: Başlık, widget: string, required: false}
+
+  - name: "staff"
+    label: "Kadromuz"
+    files:
+      - name: "staff"
+        label: "Personel Listesi"
+        file: "data/staff.json"
+        fields:
+          - name: members
+            label: Personel
+            widget: list
+            fields:
+              - {name: name, label: İsim, widget: string}
+              - {name: role, label: Görev, widget: string}
+              - {name: type, label: Tür (Kategori), widget: select, options: ["Yönetim", "Eğitimci", "Belletmen"]}
+              - {name: image, label: Profil Fotoğrafı, widget: image, required: false}

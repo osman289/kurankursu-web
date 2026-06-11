@@ -1,0 +1,19 @@
+{
+  "slides": [
+    {
+      "image": "images/yeni_afis.png",
+      "title": "",
+      "description": ""
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&q=80",
+      "title": "Geleceğin Hafızlarını Yetiştiriyoruz",
+      "description": "Köklerinden kopmadan geleceğe yürüyen nesiller için buradayız."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&q=80",
+      "title": "İlim ve İrfan Yuvası",
+      "description": "Kur'an-ı Kerim eğitiminde çeyrek asırlık tecrübe."
+    }
+  ]
+}

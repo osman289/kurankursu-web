@@ -1,0 +1,44 @@
+{
+  "members": [
+    {
+      "name": "Bahaddin Acar",
+      "role": "Kurs Yöneticisi",
+      "type": "Yönetim"
+    },
+    {
+      "name": "Muhammed Apaydın",
+      "role": "Eğitimci",
+      "type": "Eğitimci"
+    },
+    {
+      "name": "Osman Karabacak",
+      "role": "Eğitimci",
+      "type": "Eğitimci"
+    },
+    {
+      "name": "Şaban Özdemir",
+      "role": "Eğitimci",
+      "type": "Eğitimci"
+    },
+    {
+      "name": "Kenan Polat",
+      "role": "Eğitimci",
+      "type": "Eğitimci"
+    },
+    {
+      "name": "Osman Uyar",
+      "role": "Baş Belletmen",
+      "type": "Belletmen"
+    },
+    {
+      "name": "Mustafa Burak Tangül",
+      "role": "Belletmen",
+      "type": "Belletmen"
+    },
+    {
+      "name": "Koray Ayday",
+      "role": "Belletmen",
+      "type": "Belletmen"
+    }
+  ]
+}
