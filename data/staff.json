@@ -2,36 +2,36 @@
   "members": [
     {
       "name": "Bahaddin Acar",
-      "role": "Kurs YÃ¶neticisi",
+      "role": "Kurs Yöneticisi",
       "type": "Yonetim"
     },
     {
       "name": "Osman KARABACAK",
-      "role": "EÄŸitimci",
+      "role": "Eğitimci",
       "type": "Egitimci"
     },
     {
       "name": "Muhammed APAYDIN",
-      "role": "EÄŸitimci",
+      "role": "Eğitimci",
       "type": "Egitimci"
     },
     {
-      "name": "Åaban Ã–ZDEMÄ°R",
-      "role": "EÄŸitimci",
+      "name": "Şaban ÖZDEMİR",
+      "role": "Eğitimci",
       "type": "Egitimci"
     },
     {
       "name": "Kenan POLAT",
-      "role": "EÄŸitimci",
+      "role": "Eğitimci",
       "type": "Egitimci"
     },
     {
       "name": "Osman UYAR",
-      "role": "BaÅŸ Belletmen",
+      "role": "Baş Belletmen",
       "type": "Belletmen"
     },
     {
-      "name": "Mustafa Burak TANGÃœL",
+      "name": "Mustafa Burak TANGÜL",
       "role": "Belletmen",
       "type": "Belletmen"
     },
