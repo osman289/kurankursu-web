@@ -1,19 +1,24 @@
-﻿{
+{
   "images": [
     {
       "image": "images/sinif.png",
-      "category": "SÄ±nÄ±flarÄ±mÄ±z",
-      "caption": "SÄ±nÄ±flarÄ±mÄ±z"
+      "category": "Sınıflarımız",
+      "caption": "Sınıflarımız"
     },
     {
       "image": "images/etkinlik.png",
       "category": "Etkinlikler",
-      "caption": "Etkinliklerimiz"
+      "caption": "Etkinlikler"
     },
     {
-      "image": "images/mezuniyet.png",
-      "category": "Mezuniyet TÃ¶reni",
-      "caption": "Mezuniyet TÃ¶reni"
+      "image": "images/mezun.png",
+      "category": "Mezuniyet Töreni",
+      "caption": "Mezuniyet Töreni"
+    },
+    {
+      "image": "images/kurs1.png",
+      "category": "Kursumuz",
+      "caption": "Kursumuz"
     }
   ]
 }

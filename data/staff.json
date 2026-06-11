@@ -1,42 +1,42 @@
-﻿{
+{
   "members": [
     {
       "name": "Bahaddin Acar",
-      "role": "Kurs YÃ¶neticisi",
-      "type": "YÃ¶netim"
+      "role": "Kurs Yöneticisi",
+      "type": "Yönetim"
     },
     {
-      "name": "Muhammed ApaydÄ±n",
-      "role": "EÄŸitimci",
-      "type": "EÄŸitimci"
+      "name": "Muhammed Apaydın",
+      "role": "Eğitimci",
+      "type": "Eğitimci"
     },
     {
-      "name": "Osman Karabacak",
-      "role": "EÄŸitimci",
-      "type": "EÄŸitimci"
+      "name": "Seyfettin Sevinç",
+      "role": "Eğitimci",
+      "type": "Eğitimci"
     },
     {
-      "name": "Åaban Ã–zdemir",
-      "role": "EÄŸitimci",
-      "type": "EÄŸitimci"
+      "name": "Talha Çoban",
+      "role": "Eğitimci",
+      "type": "Eğitimci"
     },
     {
-      "name": "Kenan Polat",
-      "role": "EÄŸitimci",
-      "type": "EÄŸitimci"
+      "name": "Hasan Al",
+      "role": "Eğitimci",
+      "type": "Eğitimci"
     },
     {
-      "name": "Osman Uyar",
-      "role": "BaÅŸ Belletmen",
-      "type": "Belletmen"
-    },
-    {
-      "name": "Mustafa Burak TangÃ¼l",
+      "name": "Muhittin Yıldırım",
       "role": "Belletmen",
       "type": "Belletmen"
     },
     {
-      "name": "Koray Ayday",
+      "name": "Kaan Karakoç",
+      "role": "Belletmen",
+      "type": "Belletmen"
+    },
+    {
+      "name": "Yavuz Selim Acar",
       "role": "Belletmen",
       "type": "Belletmen"
     }
