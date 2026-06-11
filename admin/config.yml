@@ -8,34 +8,34 @@ public_folder: "images"
 
 collections:
   - name: "slider"
-    label: "Ana Sayfa Kayan Fotoğraflar"
+    label: "Ana Sayfa Kayan Fotograflar"
     files:
       - name: "slider"
-        label: "Kayan Fotoğraflar"
+        label: "Kayan Fotograflar"
         file: "data/slider.json"
         fields:
           - name: slides
-            label: Slaytlar
+            label: Fotograflar
             widget: list
             fields:
-              - {name: image, label: Fotoğraf, widget: image}
-              - {name: title, label: Başlık, widget: string, required: false}
-              - {name: description, label: Açıklama, widget: string, required: false}
+              - {name: image, label: Fotograf, widget: image}
+              - {name: title, label: Baslik, widget: string, required: false}
+              - {name: description, label: Aciklama, widget: string, required: false}
 
   - name: "gallery"
     label: "Medya ve Galeri"
     files:
       - name: "gallery"
-        label: "Galeri Fotoğrafları"
+        label: "Galeri Fotograflari"
         file: "data/gallery.json"
         fields:
           - name: images
-            label: Fotoğraflar
+            label: Fotograflar
             widget: list
             fields:
-              - {name: image, label: Fotoğraf, widget: image}
-              - {name: category, label: Kategori, widget: select, options: ["Sınıflarımız", "Etkinlikler", "Mezuniyet Töreni", "Kursumuz"]}
-              - {name: caption, label: Başlık, widget: string, required: false}
+              - {name: image, label: Fotograf, widget: image}
+              - {name: category, label: Kategori, widget: select, options: ["Siniflarimiz", "Etkinlikler", "Mezuniyet Toreni", "Kursumuz"]}
+              - {name: caption, label: Baslik, widget: string, required: false}
 
   - name: "staff"
     label: "Kadromuz"
@@ -48,7 +48,7 @@ collections:
             label: Personel
             widget: list
             fields:
-              - {name: name, label: İsim, widget: string}
-              - {name: role, label: Görev, widget: string}
-              - {name: type, label: Tür (Kategori), widget: select, options: ["Yönetim", "Eğitimci", "Belletmen"]}
-              - {name: image, label: Profil Fotoğrafı, widget: image, required: false}
+              - {name: name, label: Isim, widget: string}
+              - {name: role, label: Gorev, widget: string}
+              - {name: type, label: Tur (Kategori), widget: select, options: ["Yonetim", "Egitimci", "Belletmen"]}
+              - {name: image, label: Profil Fotografi, widget: image, required: false}

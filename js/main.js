@@ -110,12 +110,12 @@ async function loadCMSData() {
                         ? `<img src="${member.image}" alt="${member.name}" style="width:100%; height:100%; border-radius:50%; object-fit:cover;">`
                         : (member.type === 'Belletmen' 
                             ? `<i class="fas fa-user-graduate"></i>` 
-                            : (member.type === 'Yönetim' ? `<i class="fas fa-user-tie"></i>` : `<i class="fas fa-chalkboard-teacher"></i>`));
+                            : (member.type === 'Yonetim' ? `<i class="fas fa-user-tie"></i>` : `<i class="fas fa-chalkboard-teacher"></i>`));
                             
                     // Avatar background colors based on original design
                     const avatarStyle = member.type === 'Belletmen' ? 'background-color: #f0f7f4; color: #2e7d32;' : '';
                     const roleColor = member.type === 'Belletmen' ? 'color: #2e7d32;' : '';
-                    const cardStyle = member.type === 'Yönetim' ? 'box-shadow: 0 15px 40px rgba(0,0,0,0.1); border-top: 5px solid var(--primary-color);' : '';
+                    const cardStyle = member.type === 'Yonetim' ? 'box-shadow: 0 15px 40px rgba(0,0,0,0.1); border-top: 5px solid var(--primary-color);' : '';
                     
                     const cardHtml = `
                     <div class="staff-card" ${cardStyle ? `style="${cardStyle}"` : ''}>
@@ -126,8 +126,8 @@ async function loadCMSData() {
                         <p ${roleColor ? `style="${roleColor}"` : ''}>${member.role}</p>
                     </div>`;
                     
-                    if(member.type === 'Yönetim') yonetimHtml += cardHtml;
-                    else if(member.type === 'Eğitimci') egitimciHtml += cardHtml;
+                    if(member.type === 'Yonetim') yonetimHtml += cardHtml;
+                    else if(member.type === 'Egitimci') egitimciHtml += cardHtml;
                     else if(member.type === 'Belletmen') belletmenHtml += cardHtml;
                 });
                 

@@ -2,23 +2,23 @@
   "images": [
     {
       "image": "images/sinif.png",
-      "category": "Sınıflarımız",
+      "category": "Siniflarimiz",
       "caption": "Sınıflarımız"
     },
     {
       "image": "images/etkinlik.png",
       "category": "Etkinlikler",
-      "caption": "Etkinliklerimiz"
+      "caption": "Etkinlikler"
     },
     {
       "image": "images/mezuniyet.png",
-      "category": "Mezuniyet Töreni",
+      "category": "Mezuniyet Toreni",
       "caption": "Mezuniyet Töreni"
     },
     {
-      "image": "/images/1780477554_Gemini_Generated_Image_f5zbiyf5zbiyf5zb.png",
+      "image": "images/kurs1.png",
       "category": "Kursumuz",
-      "caption": "kurs binamız"
+      "caption": "Kursumuz"
     }
   ]
 }
