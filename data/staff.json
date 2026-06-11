@@ -3,40 +3,40 @@
     {
       "name": "Bahaddin Acar",
       "role": "Kurs Yöneticisi",
-      "type": "Yonetim"
+      "type": "Yönetim"
     },
     {
-      "name": "Muhammed Apaydın",
+      "name": "Osman KARABACAK",
       "role": "Eğitimci",
-      "type": "Egitimci"
+      "type": "Eğitimci"
     },
     {
-      "name": "Seyfettin Sevinç",
+      "name": "Muhammed APAYDIN",
       "role": "Eğitimci",
-      "type": "Egitimci"
+      "type": "Eğitimci"
     },
     {
-      "name": "Talha Çoban",
+      "name": "Şaban ÖZDEMİR",
       "role": "Eğitimci",
-      "type": "Egitimci"
+      "type": "Eğitimci"
     },
     {
-      "name": "Hasan Al",
+      "name": "Kenan POLAT",
       "role": "Eğitimci",
-      "type": "Egitimci"
+      "type": "Eğitimci"
     },
     {
-      "name": "Muhittin Yıldırım",
+      "name": "Osman UYAR",
+      "role": "Baş Belletmen",
+      "type": "Belletmen"
+    },
+    {
+      "name": "Mustafa Burak TANGÜL",
       "role": "Belletmen",
       "type": "Belletmen"
     },
     {
-      "name": "Kaan Karakoç",
-      "role": "Belletmen",
-      "type": "Belletmen"
-    },
-    {
-      "name": "Yavuz Selim Acar",
+      "name": "Koray AYDAY",
       "role": "Belletmen",
       "type": "Belletmen"
     }
