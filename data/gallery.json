@@ -1,9 +1,9 @@
-{
+﻿{
   "images": [
     {
       "image": "images/sinif.png",
-      "category": "Sınıflarımız",
-      "caption": "Sınıflarımız"
+      "category": "SÄ±nÄ±flarÄ±mÄ±z",
+      "caption": "SÄ±nÄ±flarÄ±mÄ±z"
     },
     {
       "image": "images/etkinlik.png",
@@ -12,8 +12,8 @@
     },
     {
       "image": "images/mezuniyet.png",
-      "category": "Mezuniyet Töreni",
-      "caption": "Mezuniyet Töreni"
+      "category": "Mezuniyet TÃ¶reni",
+      "caption": "Mezuniyet TÃ¶reni"
     }
   ]
 }

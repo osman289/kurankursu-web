@@ -131,10 +131,10 @@ async function loadCMSData() {
                     else if(member.type === 'Belletmen') belletmenHtml += cardHtml;
                 });
                 
-                if(yonetimWrapper) yonetimWrapper.innerHTML = yonetimHtml;
-                if(egitimciWrapper) egitimciWrapper.innerHTML = egitimciHtml;
-                if(belletmenWrapper) belletmenWrapper.innerHTML = belletmenHtml;
+                if (yonetimWrapper && yonetimHtml) yonetimWrapper.innerHTML = yonetimHtml;
+                if (egitimciWrapper && egitimciHtml) egitimciWrapper.innerHTML = egitimciHtml;
+                if (belletmenWrapper && belletmenHtml) belletmenWrapper.innerHTML = belletmenHtml;
             }
         } catch(e) { console.error('Error loading staff data', e); }
     }
-});
+}
