@@ -1,29 +1,29 @@
-﻿{
+{
   "members": [
     {
       "name": "Bahaddin Acar",
       "role": "Kurs YÃ¶neticisi",
-      "type": "YÃ¶netim"
+      "type": "Yonetim"
     },
     {
       "name": "Osman KARABACAK",
       "role": "EÄŸitimci",
-      "type": "EÄŸitimci"
+      "type": "Egitimci"
     },
     {
       "name": "Muhammed APAYDIN",
       "role": "EÄŸitimci",
-      "type": "EÄŸitimci"
+      "type": "Egitimci"
     },
     {
       "name": "Åaban Ã–ZDEMÄ°R",
       "role": "EÄŸitimci",
-      "type": "EÄŸitimci"
+      "type": "Egitimci"
     },
     {
       "name": "Kenan POLAT",
       "role": "EÄŸitimci",
-      "type": "EÄŸitimci"
+      "type": "Egitimci"
     },
     {
       "name": "Osman UYAR",
