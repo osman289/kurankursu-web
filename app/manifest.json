@@ -1,11 +1,11 @@
 {
-    "name": "haci_ishak_sucu_app",
-    "short_name": "haci_ishak_sucu_app",
+    "name": "Hacı İshak Sucu Kuran Kursu",
+    "short_name": "Kuran Kursu",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Hacı İshak Sucu Kuran Kursu Yönetim Sistemi",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
