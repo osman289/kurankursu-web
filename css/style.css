@@ -413,6 +413,10 @@ footer {
 .gallery-img-placeholder { height: 200px; background: #eef2f6; display: flex; align-items: center; justify-content: center; font-size: 50px; color: #a0aec0; }
 .gallery-caption { padding: 20px; text-align: center; font-weight: 600; color: var(--text-dark); font-size: 18px; border-top: 1px solid #f0f0f0; }
 
+.responsive-slide {
+    background-image: var(--desktop-bg) !important;
+}
+
 /* Mobil Uyumlu Slider Icin */
 @media (max-width: 1024px) {
     .hero-slider .swiper-slide {
@@ -421,6 +425,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .responsive-slide {
+        background-image: var(--mobile-bg) !important;
+    }
+    
     .hero-slider .swiper-slide {
         height: 300px;
     }

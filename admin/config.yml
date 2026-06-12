@@ -18,7 +18,8 @@ collections:
             label: Fotograflar
             widget: list
             fields:
-              - {name: image, label: Fotograf, widget: image}
+              - {name: image, label: Masaüstü Fotoğrafı, widget: image}
+              - {name: mobileImage, label: Mobil Fotoğrafı, widget: image, required: false}
               - {name: title, label: Baslik, widget: string, required: false}
               - {name: description, label: Aciklama, widget: string, required: false}
 

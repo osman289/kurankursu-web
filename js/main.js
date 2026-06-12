@@ -45,23 +45,26 @@ async function loadCMSData() {
             if (res.ok) {
                 const data = await res.json();
                 let html = '';
-                data.slides.forEach((slide, index) => {
-                    if(index === 0 && !slide.title && !slide.description) {
-                         // Full banner slide
-                         html += `
-                         <div class="swiper-slide" style="background: url('${slide.image}') center/contain no-repeat; cursor: pointer; background-color: #fff;">
-                         </div>`;
-                    } else {
-                        // Text overlay slide
-                        html += `
-                        <div class="swiper-slide" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${slide.image}') center/cover;">
-                            <div class="slide-content">
-                                ${slide.title ? `<h2>${slide.title}</h2>` : ''}
-                                ${slide.description ? `<p>${slide.description}</p>` : ''}
-                            </div>
-                        </div>`;
-                    }
-                });
+                  data.slides.forEach((slide, index) => {
+                      let bgDesktop = slide.image ? `url('${slide.image}')` : 'none';
+                      let bgMobile = slide.mobileImage ? `url('${slide.mobileImage}')` : bgDesktop;
+                      
+                      if(index === 0 && !slide.title && !slide.description) {
+                           // Full banner slide
+                           html += `
+                           <div class="swiper-slide responsive-slide" style="--desktop-bg: ${bgDesktop}; --mobile-bg: ${bgMobile}; cursor: pointer; background-color: #fff; background-position: center; background-size: contain; background-repeat: no-repeat;">
+                           </div>`;
+                      } else {
+                          // Text overlay slide
+                          html += `
+                          <div class="swiper-slide responsive-slide" style="--desktop-bg: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), ${bgDesktop}; --mobile-bg: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), ${bgMobile}; background-position: center; background-size: cover; background-repeat: no-repeat;">
+                              <div class="slide-content">
+                                  ${slide.title ? `<h2>${slide.title}</h2>` : ''}
+                                  ${slide.description ? `<p>${slide.description}</p>` : ''}
+                              </div>
+                          </div>`;
+                      }
+                  });
                 sliderWrapper.innerHTML = html;
             }
         } catch(e) { console.error('Error loading slider data', e); }
